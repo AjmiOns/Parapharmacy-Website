@@ -350,15 +350,7 @@ https://github.com/AjmiOns/Parapharmacy-Website
 GitHub:  
 https://github.com/AjmiOns
 
----
 
-## 📄 License
-
-No explicit license has been added to the repository yet.
-
-If this project is intended to be reused or distributed publicly, consider adding an appropriate open-source license such as **MIT**.
-
----
 
 ## 🙏 Acknowledgements
 
