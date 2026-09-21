@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parapharmacy Cart</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #e8f5e9; /* vert clair de fond */
+    }
+    .h-custom {
+      height: auto;
+    }
+    @media (min-width: 1025px) {
+      .h-custom {
+        height: 100vh !important;
+      }
+    }
+    .card-product img {
+      width: 70px;
+      border-radius: 8px;
+    }
+    .card-product {
+      border-left: 4px solid #4caf50; /* accent vert sur les cartes */
+    }
+    .card.bg-primary {
+      background-color: #4caf50 !important; /
+    }
+    .btn-light {
+      background-color: #a5d6a7 !important; /* vert clair bouton checkout */
+      color: #1b5e20 !important;
+    }
+    .btn-light:hover {
+      background-color: #81c784 !important;
+      color: #ffffff !important;
+    }
+    .btn-light,
+    .btn-light:hover,
+    .btn-light:focus,
+    .btn-light:active {
+        background-color: #a5d6a7 !important;
+        color: #1b5e20 !important;
+        border-color: #a5d6a7 !important;
+}
+
+  </style>
+<head>
+    <title>Para Shop - Product Detail Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+
+</head>
+
+
+   
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-light shadow" style="background-color: #e8f5e9;">
+    <div class="container d-flex justify-content-between align-items-center">
+
+        <!-- Logo -->
+        <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+            Para Shop
+        </a>
+
+        <!-- Toggle button for mobile -->
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+            <div class="flex-fill">
+                <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="review.html">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="coming.html">Coming Soon</a>
+                        </li>
+                </ul>
+            </div>
+
+            <!-- Icons -->
+            <div class="navbar align-self-center d-flex">
+                <!-- Search for mobile -->
+                <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                        <div class="input-group-text">
+                            <i class="fa fa-fw fa-search text-success"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Search for desktop -->
+                <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                    <i class="fa fa-fw fa-search text-success mr-2"></i>
+                </a>
+                <!-- Cart icon -->
+                <a class="nav-icon position-relative text-decoration-none" href="cart.html">
+                    <i class="fa fa-fw fa-cart-arrow-down text-success mr-1"></i>
+                    <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
+                </a>
+                <!-- User icon -->
+                <a class="nav-icon position-relative text-decoration-none" href="login.html">
+                    <i class="fa fa-fw fa-user text-success mr-3"></i>
+                    <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</nav>
+<!-- Close Header -->
+
+</head>
+<body>
+
+<section class="h-100 h-custom py-5">
+  <div class="container h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12">
+
+        <div class="card shadow-2-strong" style="border-radius: 10px;">
+          <div class="card-body p-4">
+
+            <div class="row">
+
+              <!-- Shopping Cart -->
+             <!-- Shopping Cart -->
+<div class="col-lg-8">
+  <h3 class="mb-3 text-success">Your Cart</h3>
+ 
+  <!-- Item 1 -->
+  <div class="card card-product mb-3 p-3">
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="d-flex align-items-center">
+        <img src="assets/img/ORD-nia-5.png" alt="Niacinamide 5% Face and Body Emulsion">
+        <div class="ms-3">
+          <h6>Niacinamide 5% Face and Body Emulsion</h6>
+          <p class="small mb-0">Face & Body</p>
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+        <input type="number" class="form-control me-3" style="width: 70px;" value="1" min="1">
+        <p class="mb-0 me-3">60.00 dt</p>
+        <button class="btn btn-outline-danger btn-sm"><i class="fas fa-trash"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Item 2 -->
+  <div class="card card-product mb-3 p-3">
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="d-flex align-items-center">
+        <img src="assets/img/main-zoom.png" alt="Mini Honey Gloss Ceramide Therapy Hydrating Hair Mask">
+        <div class="ms-3">
+          <h6>Mini Honey Gloss Ceramide Therapy Hydrating Hair Mask</h6>
+          <p class="small mb-0">Hair Mask 100ml</p>
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+        <input type="number" class="form-control me-3" style="width: 70px;" value="1" min="1">
+        <p class="mb-0 me-3">69.00 dt</p>
+        <button class="btn btn-outline-danger btn-sm"><i class="fas fa-trash"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Item 3 -->
+  <div class="card card-product mb-3 p-3">
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="d-flex align-items-center">
+        <img src="assets/img/365615-media_swatch.png" alt="The C-Tox – Masque d'argile à la vitamine c et au curcuma">
+        <div class="ms-3">
+          <h6>The C-Tox – Masque d'argile à la vitamine c et au curcuma</h6>
+          <p class="small mb-0">Face Mask 50ml</p>
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+        <input type="number" class="form-control me-3" style="width: 70px;" value="1" min="1">
+        <p class="mb-0 me-3">99.00 dt</p>
+        <button class="btn btn-outline-danger btn-sm"><i class="fas fa-trash"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+              <!-- Checkout Summary -->
+              <div class="col-lg-4">
+                <div class="card bg-primary text-white p-3" style="border-radius: 10px;">
+                  <h4 class="mb-3">Order Summary</h4>
+                  <div class="d-flex justify-content-between mb-2">
+                    <span>Subtotal</span>
+                    <span>228.00 dt</span>
+                  </div>
+                  <div class="d-flex justify-content-between mb-2">
+                    <span>Shipping</span>
+                    <span>7.00 dt</span>
+                  </div>
+                  <hr class="bg-light">
+                  <div class="d-flex justify-content-between mb-3">
+                    <strong>Total</strong>
+                    <strong>235.00 dt</strong>
+                  </div>
+                   <button class="btn btn-light w-100" onclick="location.href='checkout.html'">Checkout</button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap JS and FontAwesome -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

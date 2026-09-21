@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parapharmacy - Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+/* Agrandir la taille des liens du navbar */
+.navbar .nav-link {
+  font-size: 1.2rem; /* augmente la taille à 1.2rem (peut être ajusté) */
+}
+/* Agrandir la taille du logo */
+.navbar .navbar-brand {
+  font-size: 1.8rem; /* augmente la taille du logo */
+}
+.navbar .nav-icon {
+  font-size: 1.5rem; /* augmente la taille des icônes */
+}
+
+
+    body {
+      background-color: #e8f5e9; /* fond vert clair */
+    }
+
+    /* Header identique à cart */
+    .navbar {
+      background-color: #e8f5e9;
+      padding-top: 1.0rem;  
+      padding-bottom: 1.0rem;
+    }
+    .navbar .nav-link {
+      color: #4caf50;
+    }
+    .navbar .nav-link:hover {
+      color: #388e3c;
+    }
+    .nav-icon {
+      position: relative;
+      margin-left: 15px;
+      font-size: 1.2rem;
+      color: #4caf50;
+    }
+    .nav-icon .badge {
+      position: absolute;
+      top: -5px;
+      right: -10px;
+      font-size: 0.6rem;
+      padding: 2px 5px;
+      border-radius: 50%;
+      background-color: #fff;
+      color: #000;
+    }
+
+    /* Login Card */
+    .login-container {
+      margin-top: 80px;
+      margin-bottom: 50px;
+    }
+    .card-login {
+      border-radius: 10px;
+      padding: 30px;
+      background-color: #fff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .btn-login {
+      background-color: #4caf50;
+      color: #fff;
+    }
+    .btn-login:hover {
+      background-color: #388e3c;
+      color: #fff;
+    }
+    a.text-success:hover {
+      color: #2e7d32 !important;
+      text-decoration: underline;
+    }
+    footer {
+  background-color: #212529;
+  color: #ffffff; /* texte blanc par défaut */
+}
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-light shadow" style="background-color: #e8f5e9;">
+    <div class="container d-flex justify-content-between align-items-center">
+
+        <!-- Logo -->
+        <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+            Para Shop
+        </a>
+
+        <!-- Toggle button for mobile -->
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+            <div class="flex-fill">
+                <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="review.html">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="coming.html">Coming Soon</a>
+                        </li>
+                </ul>
+            </div>
+
+            <!-- Icons -->
+            <div class="navbar align-self-center d-flex">
+                <!-- Search for mobile -->
+                <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                        <div class="input-group-text">
+                            <i class="fa fa-fw fa-search text-success"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Search for desktop -->
+                <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                    <i class="fa fa-fw fa-search text-success mr-2"></i>
+                </a>
+                <!-- Cart icon -->
+                <a class="nav-icon position-relative text-decoration-none" href="cart.html">
+                    <i class="fa fa-fw fa-cart-arrow-down text-success mr-1"></i>
+                    <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
+                </a>
+                <!-- User icon -->
+                <a class="nav-icon position-relative text-decoration-none" href="#">
+                    <i class="fa fa-fw fa-user text-success mr-3"></i>
+                    <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</nav>
+<!-- Close Header -->
+
+
+<!-- Login Form -->
+<section class="login-container">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-5">
+        <div class="card-login">
+          <h3 class="text-center mb-4 text-success">Connexion</h3>
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Entrez votre email">
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Mot de passe</label>
+              <input type="password" class="form-control" id="password" placeholder="Entrez votre mot de passe">
+            </div>
+            <div class="d-flex justify-content-between mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="rememberMe">
+                <label class="form-check-label" for="rememberMe">
+                  Se souvenir de moi
+                </label>
+              </div>
+              <a href="#" class="text-success">Mot de passe oublié ?</a>
+            </div>
+            <button type="submit" class="btn btn-login w-100">Se connecter</button>
+          </form>
+          <p class="mt-3 text-center">Pas encore de compte ? <a href="register.html" class="text-success">S'inscrire</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+<!-- Start Footer -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 pt-5">
+    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Para Shop</h2>
+    <ul class="list-unstyled text-light footer-link-list">
+        <li>
+            <i class="fas fa-map-marker-alt fa-fw"></i>
+            Centre Urbain Nord, Tunis 1082
+        </li>
+        <li>
+            <i class="fa fa-phone fa-fw"></i>
+            <a class="text-decoration-none text-light" href="tel:+21671234567">
+                +216 71 234 567
+            </a>
+        </li>
+        <li>
+            <i class="fa fa-envelope fa-fw"></i>
+            <a class="text-decoration-none text-light" href="mailto:contact@parashop.tn">
+                contact@parashop.tn
+            </a>
+        </li>
+    </ul>
+</div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Dermocosmetics</a></li>
+<li><a class="text-decoration-none" href="#">Health & Wellness</a></li>
+<li><a class="text-decoration-none" href="#">Vitamins & Supplements</a></li>
+<li><a class="text-decoration-none" href="#">Baby & Mother Care</a></li>
+<li><a class="text-decoration-none" href="#">Personal Hygiene</a></li>
+<li><a class="text-decoration-none" href="#">Medical Devices</a></li>
+<li><a class="text-decoration-none" href="#">Oral Care</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="index.html">Home</a></li>
+                        <li><a class="text-decoration-none" href="about.html">About Us</a></li>
+                        <li><a class="text-decoration-none" href="shop.html">Shop Locations</a></li>
+                        <li><a class="text-decoration-none" href="coming.html">Coming Soon</a></li>
+                        <li><a class="text-decoration-none" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+    </footer>
+    <!-- End Footer -->
+</html>

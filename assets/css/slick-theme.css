@@ -1,0 +1,239 @@
+@charset 'UTF-8'; /* Encodage pour éviter les problèmes de caractères */
+
+/* ================= Slider ================= */
+
+/* Affiche un loader tant que le slider n’est pas prêt */
+.slick-loading .slick-list
+{
+    background: #fff url('../img/ajax-loader.gif') center center no-repeat;
+}
+
+/* ================= Icons ================= */
+
+/* Police utilisée par Slick pour les flèches et les dots */
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    /* Plusieurs formats pour compatibilité navigateurs */
+    src: url('../webfonts/slick.eot');
+    src: url('../webfonts/slick.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/slick.woff') format('woff'),
+         url('../webfonts/slick.ttf') format('truetype'),
+         url('../webfonts/slick.svg#slick') format('svg');
+}
+
+/* ================= Arrows ================= */
+
+/* Boutons précédent et suivant */
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;            /* Position libre par rapport au slider */
+    top: 50%;                      /* Centrage vertical */
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+
+    transform: translate(0, -50%); /* Ajustement précis du centrage */
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+/* Supprime les effets visuels par défaut au hover/focus */
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+
+/* Rend l’icône plus visible au survol */
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    opacity: 1;
+}
+
+/* Flèches désactivées (début / fin du slider) */
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+/* Icônes des flèches générées via la police Slick */
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Position de la flèche précédente */
+.slick-prev
+{
+    left: -25px;
+}
+
+/* Support du mode RTL (arabe, hébreu…) */
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+
+/* Contenu visuel de la flèche précédente */
+.slick-prev:before
+{
+    content: '←';
+}
+
+/* Inversion de la flèche en RTL */
+[dir='rtl'] .slick-prev:before
+{
+    content: '→';
+}
+
+/* Position de la flèche suivante */
+.slick-next
+{
+    right: -25px;
+}
+
+/* RTL : inversion de position */
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+
+/* Contenu visuel de la flèche suivante */
+.slick-next:before
+{
+    content: '→';
+}
+
+/* Inversion de la flèche suivante en RTL */
+[dir='rtl'] .slick-next:before
+{
+    content: '←';
+}
+
+/* ================= Dots ================= */
+
+/* Espace sous le slider quand les dots sont activés */
+.slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+/* Conteneur des points de navigation */
+.slick-dots
+{
+    position: absolute;
+    bottom: -25px;                 /* Place les dots sous le slider */
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+    text-align: center;
+}
+
+/* Chaque point */
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+
+    cursor: pointer;
+}
+
+/* Bouton cliquable du point */
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+/* Met en évidence le point au survol */
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+
+/* Apparence du point (dot) */
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';                 /* Point visible */
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+}
+
+/* Point correspondant au slide actif */
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}
