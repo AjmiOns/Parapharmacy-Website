@@ -1,615 +1,280 @@
-**# 🧴 Parapharmacy Website**
+<div align="center">
 
-A responsive **\*\*parapharmacy e-commerce front-end\*\*** built with **\*\*HTML, CSS, JavaScript and Bootstrap\*\***.
+# 🌿 Para Shop
 
-The project provides a complete multi-page user interface for discovering health and wellness products, browsing product categories, viewing product details, managing a shopping cart, checking out, signing in, reading customer reviews, and contacting the store.
+### Votre parapharmacie en ligne — soins, beauté & bien-être
 
-\> **\*\*Project type:\*\*** Front-end / static web application  
+Front-end e-commerce responsive pour une parapharmacie, construit avec **HTML5**, **CSS3**, **Bootstrap 5** et **JavaScript**.
 
-\> **\*\*Status:\*\*** UI prototype — no server-side backend or database is currently connected.
+<br>
 
-\---
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
 
-**## 📋 Overview**
+![Status](https://img.shields.io/badge/statut-en%20d%C3%A9veloppement-yellow?style=flat-square)
+![Responsive](https://img.shields.io/badge/design-responsive-success?style=flat-square)
+![Repo size](https://img.shields.io/github/repo-size/AjmiOns/Parapharmacy-Website?style=flat-square&color=pink)
+![Last commit](https://img.shields.io/github/last-commit/AjmiOns/Parapharmacy-Website?style=flat-square&color=green)
 
-**\*\*Parapharmacy Website\*\*** is designed as a modern online storefront for a parapharmacy. The interface focuses on a clean shopping experience, responsive layouts, product presentation, and easy navigation between the main customer journeys.
+<br>
 
-**### Main pages**
+<img src="assets/screenshots/home.png" alt="Page d'accueil Para Shop" width="90%">
 
-\- 🏠 **\*\*Home\*\*** — Landing page with featured content and product highlights
-
-\- ℹ️ **\*\*About\*\*** — Store presentation and available services
-
-\- 🛍️ **\*\*Shop\*\*** — Product catalogue with categories
-
-\- 📦 **\*\*Product Details\*\*** — Detailed product presentation
-
-\- 🛒 **\*\*Cart\*\*** — Shopping cart interface
-
-\- 💳 **\*\*Checkout\*\*** — Customer/order information form
-
-\- 🔐 **\*\*Login\*\*** — Authentication interface
-
-\- ⭐ **\*\*Reviews\*\*** — Customer reviews and multimedia content
-
-\- 📍 **\*\*Contact\*\*** — Contact form and interactive map
-
-\- 🔜 **\*\*Coming Soon\*\*** — Promotional / upcoming-product page
-
-\---
-
-**## ✨ Features**
-
-**### 🛍️ E-commerce interface**
-
-\- Product catalogue
-
-\- Product categories
-
-\- Product detail pages
-
-\- Shopping cart interface
-
-\- Checkout interface
-
-\- Product search UI
-
-\- Product reviews
-
-\- Customer account/login interface
-
-**### 🎨 UI / UX**
-
-\- Responsive layout
-
-\- Mobile-friendly navigation
-
-\- Bootstrap-based components
-
-\- Product cards and promotional sections
-
-\- Font Awesome icons
-
-\- Consistent navigation and footer
-
-\- Hover and transition effects
-
-\- Health & wellness oriented visual design
-
-**### 📍 Contact & location**
-
-\- Contact form
-
-\- Interactive map using **\*\*Leaflet\*\***
-
-\- OpenStreetMap tile layer
-
-\- Store location marker
-
-**### 🎬 Multimedia**
-
-\- Product images
-
-\- Product demonstration videos
-
-\- Customer review media
-
-\---
-
-**## 🖥️ Project Preview**
-
-\<p align="center">
-
-  \<img
-
-    src="assets/screenshots/home.png"
-
-    alt="Parapharmacy Website - Home Page"
-
-    width="100%"
-
-  >
-
-\</p>
-
-\<p align="center">
-
-  \<em>Parapharmacy Website — Home Page\</em>
-
-\</p>
-
-\---
-
-**## 📸 Application Screenshots
-
-### 🏠 Home & 🛍️ Products
-
-<p align="center">
-  <img src="assets/screenshots/home.png" width="48%" alt="Home Page">
-  <img src="assets/screenshots/products.png" width="48%" alt="Products Page">
-</p>
-
-### ⭐ Reviews & 💳 Checkout
-
-<p align="center">
-  <img src="assets/screenshots/reviews.png" width="48%" alt="Reviews Page">
-  <img src="assets/screenshots/checkout.png" width="48%" alt="Checkout Page">
-</p>
-
-### 📍 Contact & ℹ️ About
-
-<p align="center">
-  <img src="assets/screenshots/contact.png" width="48%" alt="Contact Page">
-  <img src="assets/screenshots/about.png" width="48%" alt="About Page">
-</p>
-
-### 🔜 Coming Soon
-
-<p align="center">
-  <img src="assets/screenshots/coming.png" width="48%" alt="Coming Soon Page">
-  <img src="assets/screenshots/coming-soon.png" width="48%" alt="Coming Soon Preview">
-</p>
+</div>
 
 ---
 
-**## 🛠️ Tech Stack**
-
-\| Technology | Purpose |
-
-\|---|---|
-
-\| **\*\*HTML5\*\*** | Page structure and semantic markup |
-
-\| **\*\*CSS3\*\*** | Custom styling and responsive presentation |
-
-\| **\*\*JavaScript\*\*** | Client-side interactions |
-
-\| **\*\*Bootstrap 5\*\*** | Responsive UI and components |
-
-\| **\*\*jQuery\*\*** | DOM utilities and template interactions |
-
-\| **\*\*Font Awesome\*\*** | Icons |
-
-\| **\*\*Slick Carousel\*\*** | Product/image carousel components |
-
-\| **\*\*Leaflet\*\*** | Interactive map |
-
-\| **\*\*OpenStreetMap\*\*** | Map tiles |
-
-\| **\*\*Google Fonts / Roboto\*\*** | Typography |
-
-\---
-
-**## 📁 Project Structure**
-
-\`\`\`text
-
-Parapharmacy-Website/
-
-│
-
-├── assets/
-
-│   ├── css/
-
-│   │   ├── bootstrap.min.css
-
-│   │   ├── custom.css
-
-│   │   ├── fontawesome.css
-
-│   │   ├── fontawesome.min.css
-
-│   │   ├── slick.min.css
-
-│   │   ├── slick-theme.css
-
-│   │   ├── templatemo.css
-
-│   │   └── ...
-
-│   │
-
-│   ├── js/
-
-│   │   ├── bootstrap.bundle.min.js
-
-│   │   ├── jquery-1.11.0.min.js
-
-│   │   ├── jquery-migrate-1.2.1.min.js
-
-│   │   ├── slick.min.js
-
-│   │   ├── templatemo.js
-
-│   │   └── custom.js
-
-│   │
-
-│   ├── img/
-
-│   │   ├── product images
-
-│   │   ├── promotional images
-
-│   │   └── review videos
-
-│   │
-
-│   └── webfonts/
-
-│
-
-├── index.html
-
-├── about.html
-
-├── shop.html
-
-├── shop-single.html
-
-├── cart.html
-
-├── checkout.html
-
-├── login.html
-
-├── review\.html
-
-├── contact.html
-
-├── coming.html
-
-├── chekout.html
-
-└── README.md
-
-\`\`\`
-
-\> \`chekout.html\` is a duplicate/legacy checkout page kept in the current project. \`checkout.html\` is the main checkout page.
-
-\---
-
-**## 🚀 Getting Started**
-
-**### 1. Clone the repository**
-
-\`\`\`bash
-
-git clone https\://github.com/AjmiOns/Parapharmacy-Website.git
-
-\`\`\`
-
-**### 2. Open the project**
-
-\`\`\`bash
-
+## 📑 Table des matières
+
+- [À propos](#-à-propos)
+- [Fonctionnalités](#-fonctionnalités)
+- [Aperçu](#-aperçu)
+- [Stack technique](#-stack-technique)
+- [Structure du projet](#-structure-du-projet)
+- [Installation](#-installation)
+- [Pages du site](#-pages-du-site)
+- [Roadmap](#-roadmap)
+- [Contribuer](#-contribuer)
+- [Crédits](#-crédits)
+- [Auteur](#-auteur)
+
+---
+
+## 💡 À propos
+
+**Para Shop** est une vitrine e-commerce dédiée à la parapharmacie : soins du visage, soins des cheveux, soins des lèvres, compléments et produits de bien-être.
+
+Le projet met l'accent sur une **expérience utilisateur claire** (navigation par catégories, fiches produits détaillées, avis clients) et sur une **identité visuelle soignée**, alliant le vert « santé » et le rose « beauté ».
+
+> 🎯 **Objectif :** proposer une base front-end propre, maintenable et prête à être connectée à un back-end (PHP / MySQL, API REST, etc.).
+
+---
+
+## ✨ Fonctionnalités
+
+| | Fonctionnalité | Description |
+|---|---|---|
+| 🏠 | **Accueil** | Bannière, produits mis en avant et catégories |
+| 🛍️ | **Catalogue produits** | Liste des produits avec filtrage par catégories (Santé & Bien-être, Bébé & Maman, Beauté & Peau…) |
+| 🔎 | **Fiche produit** | Galerie d'images, description et informations détaillées |
+| 🛒 | **Panier** | Récapitulatif des articles sélectionnés |
+| 💳 | **Checkout** | Page de finalisation de commande |
+| 🔐 | **Connexion** | Formulaire d'authentification |
+| ⭐ | **Avis clients** | Témoignages et retours sur les produits |
+| 🚀 | **Nouveautés à venir** | Carrousel « Coming Soon » avec vidéos (pause automatique au changement de slide) |
+| 📬 | **Contact** | Formulaire de contact |
+| ℹ️ | **À propos** | Présentation et services : livraison, retours, promotions, service 24h/24 |
+| 📱 | **Responsive** | Interface adaptée mobile, tablette et desktop |
+
+---
+
+## 📸 Aperçu
+
+### 🏠 Accueil
+
+<div align="center">
+  <img src="assets/screenshots/home.png" alt="Accueil" width="100%">
+</div>
+
+<br>
+
+### 🛍️ Catalogue & fiche produit
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/screenshots/products.png" alt="Catalogue produits"><br>
+      <sub><b>Catalogue produits</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/screenshots/product-detail.png" alt="Fiche produit"><br>
+      <sub><b>Fiche produit</b></sub>
+    </td>
+  </tr>
+</table>
+
+### ⭐ Avis clients & nouveautés
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/reviews.png" alt="Avis clients"><br>
+      <sub><b>Avis clients</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/coming.png" alt="Nouveau produit"><br>
+      <sub><b>Nouveau produit</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/comingSoon.png" alt="Coming soon"><br>
+      <sub><b>Coming soon</b></sub>
+    </td>
+  </tr>
+</table>
+
+### 📬 À propos & contact
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/screenshots/about.png" alt="À propos"><br>
+      <sub><b>À propos</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/screenshots/contact.png" alt="Contact"><br>
+      <sub><b>Contact</b></sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🛠️ Stack technique
+
+| Catégorie | Technologies |
+|---|---|
+| **Structure** | HTML5 |
+| **Style** | CSS3, Bootstrap 5, thème basé sur *Zay Shop* (TemplateMo) |
+| **Interactivité** | JavaScript (ES6), jQuery, Slick Carousel |
+| **Icônes & polices** | Font Awesome, Google Fonts (Roboto) |
+| **Environnement local** | XAMPP / tout serveur HTTP statique |
+| **Versioning** | Git & GitHub |
+
+---
+
+## 📂 Structure du projet
+
+```
+Para-Shop/
+├── index.html          # Page d'accueil
+├── shop.html           # Catalogue produits
+├── shop-single.html    # Fiche produit
+├── cart.html           # Panier
+├── checkout.html       # Finalisation de commande
+├── login.html          # Connexion
+├── review.html         # Avis clients
+├── coming.html         # Nouveautés à venir
+├── about.html          # À propos
+├── contact.html        # Contact
+└── assets/
+    ├── css/            # Bootstrap, templatemo, Font Awesome, Slick, custom.css
+    ├── js/             # jQuery, Bootstrap bundle, Slick, custom.js
+    ├── img/            # Images produits et vidéos
+    ├── webfonts/       # Polices Font Awesome & Slick
+    └── screenshots/    # Captures d'écran du README
+```
+
+---
+
+## 🚀 Installation
+
+### Prérequis
+
+- Un navigateur moderne (Chrome, Firefox, Edge, Safari)
+- *(Optionnel)* [XAMPP](https://www.apachefriends.org/) ou tout autre serveur local
+
+### 1. Cloner le dépôt
+
+```bash
+git clone https://github.com/AjmiOns/Parapharmacy-Website.git
 cd Parapharmacy-Website
+```
 
-\`\`\`
+### 2. Lancer le projet
 
-**### 3. Run the website**
+**Option A — Directement dans le navigateur**
 
-This is a static front-end project, so no Node.js installation or backend server is required for the basic version.
+Ouvrez simplement `index.html`.
 
-You can open:
+**Option B — Avec XAMPP**
 
-\`\`\`text
+1. Copiez le dossier dans `C:\xampp\htdocs\`
+2. Démarrez **Apache** depuis le panneau XAMPP
+3. Rendez-vous sur 👉 `http://localhost/Para-Shop/`
 
-index.html
+**Option C — Avec un serveur statique rapide**
 
-\`\`\`
+```bash
+# Python
+python -m http.server 8000
 
-directly in a browser.
+# ou Node.js
+npx serve .
+```
 
-**### Recommended: VS Code + Live Server**
+Puis ouvrez `http://localhost:8000`.
 
-For a better development workflow, open the project in **\*\*Visual Studio Code\*\*** and use the **\*\*Live Server\*\*** extension.
+---
 
-Then launch:
+## 🗺️ Pages du site
 
-\`\`\`text
+| Page | Fichier | Rôle |
+|---|---|---|
+| Accueil | `index.html` | Point d'entrée, produits phares |
+| Boutique | `shop.html` | Liste des produits et catégories |
+| Détail produit | `shop-single.html` | Informations complètes d'un produit |
+| Panier | `cart.html` | Articles sélectionnés |
+| Paiement | `checkout.html` | Finalisation de la commande |
+| Connexion | `login.html` | Accès au compte |
+| Avis | `review.html` | Retours clients |
+| Nouveautés | `coming.html` | Produits à venir |
+| À propos | `about.html` | Présentation et services |
+| Contact | `contact.html` | Formulaire de contact |
 
-index.html
+---
 
-\`\`\`
+## 🧭 Roadmap
 
-through Live Server.
+- [x] Maquettes et intégration des pages principales
+- [x] Design responsive avec Bootstrap 5
+- [x] Carrousel de nouveautés avec vidéos
+- [ ] Panier dynamique (ajout / suppression / calcul du total en JavaScript)
+- [ ] Recherche et filtres fonctionnels sur le catalogue
+- [ ] Page d'inscription (`register.html`)
+- [ ] Back-end (PHP / MySQL ou API REST) : comptes, produits, commandes
+- [ ] Paiement en ligne sécurisé
+- [ ] Optimisation des performances (compression des images et vidéos)
+- [ ] Accessibilité (WCAG) et SEO
+- [ ] Support multilingue (FR / EN / AR)
 
-\---
+---
 
-**## 🔄 Main User Flow**
+## 🤝 Contribuer
 
-\`\`\`text
+Les contributions sont les bienvenues !
 
-Home
+1. **Forkez** le projet
+2. Créez une branche : `git checkout -b feature/ma-fonctionnalite`
+3. Commitez : `git commit -m "feat: ajout de ma fonctionnalité"`
+4. Poussez : `git push origin feature/ma-fonctionnalite`
+5. Ouvrez une **Pull Request**
 
-  │
+**Convention de commits** : [Conventional Commits](https://www.conventionalcommits.org/fr/) (`feat:`, `fix:`, `docs:`, `style:`, `refactor:`…).
 
-  ├── About
+---
 
-  ├── Shop
+## 🙏 Crédits
 
-  │     │
+- Thème de base : [Zay Shop – TemplateMo 559](https://templatemo.com/tm-559-zay-shop)
+- Icônes : [Font Awesome](https://fontawesome.com/)
+- Composants UI : [Bootstrap](https://getbootstrap.com/)
+- Carrousel : [Slick](https://kenwheeler.github.io/slick/)
+- Les visuels produits appartiennent à leurs marques respectives et sont utilisés à des fins de démonstration uniquement.
 
-  │     └── Product Details
+---
 
-  │             │
+## 👩‍💻 Auteur
 
-  │             └── Add to Cart
+**Ons Ajmi** — [@AjmiOns](https://github.com/AjmiOns)
 
-  │
+<div align="center">
 
-  ├── Reviews
+⭐ Si ce projet vous plaît, n'hésitez pas à lui laisser une étoile !
 
-  ├── Contact
+<sub>Fait avec 💚 et beaucoup de ☕</sub>
 
-  ├── Login
-
-  │
-
-  └── Cart
-
-        │
-
-        └── Checkout
-
-\`\`\`
-
-\---
-
-**## 🏗️ Architecture**
-
-The current version follows a simple **\*\*static multi-page architecture\*\***:
-
-\`\`\`text
-
-Presentation Layer
-
-        │
-
-        ├── HTML pages
-
-        ├── CSS / Bootstrap
-
-        └── JavaScript
-
-                │
-
-                └── Browser
-
-\`\`\`
-
-There is currently **\*\*no API layer, database, authentication service, payment gateway, or server-side business logic\*\*** connected to the project.
-
-This makes the project suitable as a front-end prototype and provides a clean foundation for a future full-stack implementation.
-
-\---
-
-**## 🔐 Security**
-
-The project is currently front-end only.
-
-**### Important**
-
-Do not commit:
-
-\- API keys
-
-\- private access tokens
-
-\- database credentials
-
-\- \`.env\` files containing secrets
-
-\- administrator credentials
-
-\- private configuration files
-
-For browser-side services that require public keys, use provider-supported public tokens and configure the appropriate domain/restriction settings.
-
-\---
-
-**## ⚠️ Current Limitations**
-
-The current repository is primarily a **\*\*front-end prototype\*\***.
-
-The following features require backend integration to become production-ready:
-
-\- User registration and authentication
-
-\- Persistent shopping cart
-
-\- Product inventory
-
-\- Order management
-
-\- Payment processing
-
-\- Database storage
-
-\- Server-side form processing
-
-\- Real customer reviews
-
-\- Real-time order tracking
-
-\- Secure user sessions
-
-The forms and e-commerce pages currently represent the **\*\*user interface and navigation flow\*\***, rather than a complete production e-commerce backend.
-
-\---
-
-**## 🗺️ Roadmap**
-
-**### Phase 1 — Front-end improvements**
-
-\- [ ] Improve accessibility
-
-\- [ ] Standardize CSS across all pages
-
-\- [ ] Remove duplicate/legacy files
-
-\- [ ] Improve responsive behavior
-
-\- [ ] Add form validation
-
-\- [ ] Improve SEO metadata
-
-\- [ ] Optimize images and videos
-
-**### Phase 2 — JavaScript functionality**
-
-\- [ ] Dynamic product filtering
-
-\- [ ] Functional search
-
-\- [ ] Dynamic cart management
-
-\- [ ] Quantity updates
-
-\- [ ] LocalStorage cart persistence
-
-\- [ ] Checkout validation
-
-**### Phase 3 — Full-stack architecture**
-
-\- [ ] REST API
-
-\- [ ] Database integration
-
-\- [ ] User authentication
-
-\- [ ] Product management
-
-\- [ ] Inventory management
-
-\- [ ] Order management
-
-\- [ ] Admin dashboard
-
-\- [ ] Payment integration
-
-**### Phase 4 — Production readiness**
-
-\- [ ] Automated testing
-
-\- [ ] CI/CD pipeline
-
-\- [ ] Environment configuration
-
-\- [ ] Security hardening
-
-\- [ ] Performance optimization
-
-\- [ ] Production deployment
-
-\---
-
-**## 🌿 Git & GitHub Workflow**
-
-Recommended Git workflow:
-
-\`\`\`bash
-
-git checkout -b feature/feature-name
-
-\`\`\`
-
-Make your changes, then:
-
-\`\`\`bash
-
-git add .
-
-git commit -m "feat: add feature description"
-
-git push origin feature/feature-name
-
-\`\`\`
-
-For maintenance or fixes:
-
-\`\`\`bash
-
-git checkout -b fix/issue-description
-
-\`\`\`
-
-**### Commit convention**
-
-Recommended Conventional Commits format:
-
-\`\`\`text
-
-feat: add product filtering
-
-fix: correct checkout form validation
-
-style: improve product card layout
-
-refactor: reorganize JavaScript functions
-
-docs: update README
-
-perf: optimize product images
-
-\`\`\`
-
-\---
-
-**## 🌐 Repository**
-
-**\*\*GitHub:\*\***  
-
-https\://github.com/AjmiOns/Parapharmacy-Website
-
-\---
-
-**## 👩‍💻 Author**
-
-**\*\*Ajmi Ons\*\***
-
-GitHub:  
-
-https\://github.com/AjmiOns
-
-
-
-
-
-**## 🙏 Acknowledgements**
-
-This project uses resources and libraries including:
-
-\- [Bootstrap]\(https\://getbootstrap.com/)
-
-\- [jQuery]\(https\://jquery.com/)
-
-\- [Font Awesome]\(https\://fontawesome.com/)
-
-\- [Leaflet]\(https\://leafletjs.com/)
-
-\- [OpenStreetMap]\(https\://www\.openstreetmap.org/)
-
-\- [Google Fonts]\(https\://fonts.google.com/)
-
-\---
-
-**## ⭐ Project Goals**
-
-The goal of this project is to build a clean and responsive parapharmacy storefront while practicing:
-
-\- Front-end web development
-
-\- Responsive UI design
-
-\- Multi-page website architecture
-
-\- E-commerce user flows
-
-\- Git and GitHub version control
-
-\- Project organization
-
-\- Preparation for future full-stack development
+</div>
