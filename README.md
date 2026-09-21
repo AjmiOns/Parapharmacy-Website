@@ -66,7 +66,107 @@ The project provides a complete multi-page user interface for discovering health
 - Customer review media
 
 ---
+## 🖥️ Project Preview
 
+<p align="center">
+  <img
+    src="assets/screenshots/home.png"
+    alt="Parapharmacy Website - Home Page"
+    width="100%"
+  >
+</p>
+
+<p align="center">
+  <em>Parapharmacy Website — Home Page</em>
+</p>
+
+---
+
+## 📸 Application Screenshots
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <h3>🏠 Home</h3>
+      <img
+        src="assets/screenshots/home.png"
+        alt="Home Page"
+        width="100%"
+      >
+    </td>
+
+    <td align="center" width="50%">
+      <h3>🛍️ Products</h3>
+      <img
+        src="assets/screenshots/products.png"
+        alt="Products Page"
+        width="100%"
+      >
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="50%">
+      <h3>⭐ Reviews</h3>
+      <img
+        src="assets/screenshots/reviews.png"
+        alt="Reviews Page"
+        width="100%"
+      >
+    </td>
+
+    <td align="center" width="50%">
+      <h3>💳 Checkout</h3>
+      <img
+        src="assets/screenshots/checkout.png"
+        alt="Checkout Page"
+        width="100%"
+      >
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="50%">
+      <h3>🔜 Coming Soon</h3>
+      <img
+        src="assets/screenshots/coming.png"
+        alt="Coming Soon Page"
+        width="100%"
+      >
+    </td>
+
+    <td align="center" width="50%">
+      <h3>📍 Contact</h3>
+      <img
+        src="assets/screenshots/contact.png"
+        alt="Contact Page"
+        width="100%"
+      >
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="50%">
+      <h3>ℹ️ About</h3>
+      <img
+        src="assets/screenshots/about.png"
+        alt="About Page"
+        width="100%"
+      >
+    </td>
+
+    <td align="center" width="50%">
+      <h3>🌸 Coming Soon Preview</h3>
+      <img
+        src="assets/screenshots/coming-soon.png"
+        alt="Coming Soon Preview"
+        width="100%"
+      >
+    </td>
+  </tr>
+</table>
+
+---
 ## 🛠️ Technology Stack
 
 | Technology | Purpose |
