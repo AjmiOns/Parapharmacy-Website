@@ -91,7 +91,7 @@ Le projet met l'accent sur une **expérience utilisateur claire** (navigation pa
       <sub><b>Catalogue produits</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/screenshots/product-detail.png" alt="Fiche produit"><br>
+      <img src="assets/screenshots/single-shop.png" alt="Fiche produit"><br>
       <sub><b>Fiche produit</b></sub>
     </td>
   </tr>
