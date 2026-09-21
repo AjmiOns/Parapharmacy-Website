@@ -1,478 +1,615 @@
-# 🧴 Parapharmacy Website
+**# 🧴 Parapharmacy Website**
 
-A responsive **parapharmacy e-commerce front-end** built with **HTML, CSS, JavaScript and Bootstrap**.
+A responsive **\*\*parapharmacy e-commerce front-end\*\*** built with **\*\*HTML, CSS, JavaScript and Bootstrap\*\***.
 
 The project provides a complete multi-page user interface for discovering health and wellness products, browsing product categories, viewing product details, managing a shopping cart, checking out, signing in, reading customer reviews, and contacting the store.
 
-> **Project type:** Front-end / static web application  
-> **Status:** UI prototype — no server-side backend or database is currently connected.
+\> **\*\*Project type:\*\*** Front-end / static web application  
 
----
+\> **\*\*Status:\*\*** UI prototype — no server-side backend or database is currently connected.
 
-## 📸 Overview
+\---
 
-**Parapharmacy Website** is designed as a modern online storefront for a parapharmacy. The interface focuses on a clean shopping experience, responsive layouts, product presentation, and easy navigation between the main customer journeys.
+**## 📋 Overview**
 
-### Main pages
+**\*\*Parapharmacy Website\*\*** is designed as a modern online storefront for a parapharmacy. The interface focuses on a clean shopping experience, responsive layouts, product presentation, and easy navigation between the main customer journeys.
 
-- 🏠 **Home** — Landing page with featured content and product highlights
-- ℹ️ **About** — Store presentation and available services
-- 🛍️ **Shop** — Product catalogue with categories
-- 📦 **Product Details** — Detailed product presentation
-- 🛒 **Cart** — Shopping cart interface
-- 💳 **Checkout** — Customer/order information form
-- 🔐 **Login** — Authentication interface
-- ⭐ **Reviews** — Customer reviews and multimedia content
-- 📍 **Contact** — Contact form and interactive map
-- 🔜 **Coming Soon** — Promotional / upcoming-product page
+**### Main pages**
 
----
+\- 🏠 **\*\*Home\*\*** — Landing page with featured content and product highlights
 
-## ✨ Features
+\- ℹ️ **\*\*About\*\*** — Store presentation and available services
 
-### 🛍️ E-commerce interface
+\- 🛍️ **\*\*Shop\*\*** — Product catalogue with categories
 
-- Product catalogue
-- Product categories
-- Product detail pages
-- Shopping cart interface
-- Checkout interface
-- Product search UI
-- Product reviews
-- Customer account/login interface
+\- 📦 **\*\*Product Details\*\*** — Detailed product presentation
 
-### 🎨 UI / UX
+\- 🛒 **\*\*Cart\*\*** — Shopping cart interface
 
-- Responsive layout
-- Mobile-friendly navigation
-- Bootstrap-based components
-- Product cards and promotional sections
-- Font Awesome icons
-- Consistent navigation and footer
-- Hover and transition effects
-- Health & wellness oriented visual design
+\- 💳 **\*\*Checkout\*\*** — Customer/order information form
 
-### 📍 Contact & location
+\- 🔐 **\*\*Login\*\*** — Authentication interface
 
-- Contact form
-- Interactive map using **Leaflet**
-- OpenStreetMap tile layer
-- Store location marker
+\- ⭐ **\*\*Reviews\*\*** — Customer reviews and multimedia content
 
-### 🎬 Multimedia
+\- 📍 **\*\*Contact\*\*** — Contact form and interactive map
 
-- Product images
-- Product demonstration videos
-- Customer review media
+\- 🔜 **\*\*Coming Soon\*\*** — Promotional / upcoming-product page
 
----
-## 🖥️ Project Preview
+\---
+
+**## ✨ Features**
+
+**### 🛍️ E-commerce interface**
+
+\- Product catalogue
+
+\- Product categories
+
+\- Product detail pages
+
+\- Shopping cart interface
+
+\- Checkout interface
+
+\- Product search UI
+
+\- Product reviews
+
+\- Customer account/login interface
+
+**### 🎨 UI / UX**
+
+\- Responsive layout
+
+\- Mobile-friendly navigation
+
+\- Bootstrap-based components
+
+\- Product cards and promotional sections
+
+\- Font Awesome icons
+
+\- Consistent navigation and footer
+
+\- Hover and transition effects
+
+\- Health & wellness oriented visual design
+
+**### 📍 Contact & location**
+
+\- Contact form
+
+\- Interactive map using **\*\*Leaflet\*\***
+
+\- OpenStreetMap tile layer
+
+\- Store location marker
+
+**### 🎬 Multimedia**
+
+\- Product images
+
+\- Product demonstration videos
+
+\- Customer review media
+
+\---
+
+**## 🖥️ Project Preview**
+
+\<p align="center">
+
+  \<img
+
+    src="assets/screenshots/home.png"
+
+    alt="Parapharmacy Website - Home Page"
+
+    width="100%"
+
+  >
+
+\</p>
+
+\<p align="center">
+
+  \<em>Parapharmacy Website — Home Page\</em>
+
+\</p>
+
+\---
+
+**## 📸 Application Screenshots
+
+### 🏠 Home & 🛍️ Products
 
 <p align="center">
-  <img
-    src="assets/screenshots/home.png"
-    alt="Parapharmacy Website - Home Page"
-    width="100%"
-  >
+  <img src="assets/screenshots/home.png" width="48%" alt="Home Page">
+  <img src="assets/screenshots/products.png" width="48%" alt="Products Page">
 </p>
+
+### ⭐ Reviews & 💳 Checkout
 
 <p align="center">
-  <em>Parapharmacy Website — Home Page</em>
+  <img src="assets/screenshots/reviews.png" width="48%" alt="Reviews Page">
+  <img src="assets/screenshots/checkout.png" width="48%" alt="Checkout Page">
+</p>
+
+### 📍 Contact & ℹ️ About
+
+<p align="center">
+  <img src="assets/screenshots/contact.png" width="48%" alt="Contact Page">
+  <img src="assets/screenshots/about.png" width="48%" alt="About Page">
+</p>
+
+### 🔜 Coming Soon
+
+<p align="center">
+  <img src="assets/screenshots/coming.png" width="48%" alt="Coming Soon Page">
+  <img src="assets/screenshots/coming-soon.png" width="48%" alt="Coming Soon Preview">
 </p>
 
 ---
 
-## 📸 Application Screenshots
+**## 🛠️ Tech Stack**
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <h3>🏠 Home</h3>
-      <img
-        src="assets/screenshots/home.png"
-        alt="Home Page"
-        width="100%"
-      >
-    </td>
+\| Technology | Purpose |
 
-    <td align="center" width="50%">
-      <h3>🛍️ Products</h3>
-      <img
-        src="assets/screenshots/products.png"
-        alt="Products Page"
-        width="100%"
-      >
-    </td>
-  </tr>
+\|---|---|
 
-  <tr>
-    <td align="center" width="50%">
-      <h3>⭐ Reviews</h3>
-      <img
-        src="assets/screenshots/reviews.png"
-        alt="Reviews Page"
-        width="100%"
-      >
-    </td>
+\| **\*\*HTML5\*\*** | Page structure and semantic markup |
 
-    <td align="center" width="50%">
-      <h3>💳 Checkout</h3>
-      <img
-        src="assets/screenshots/checkout.png"
-        alt="Checkout Page"
-        width="100%"
-      >
-    </td>
-  </tr>
+\| **\*\*CSS3\*\*** | Custom styling and responsive presentation |
 
-  <tr>
-    <td align="center" width="50%">
-      <h3>🔜 Coming Soon</h3>
-      <img
-        src="assets/screenshots/coming.png"
-        alt="Coming Soon Page"
-        width="100%"
-      >
-    </td>
+\| **\*\*JavaScript\*\*** | Client-side interactions |
 
-    <td align="center" width="50%">
-      <h3>📍 Contact</h3>
-      <img
-        src="assets/screenshots/contact.png"
-        alt="Contact Page"
-        width="100%"
-      >
-    </td>
-  </tr>
+\| **\*\*Bootstrap 5\*\*** | Responsive UI and components |
 
-  <tr>
-    <td align="center" width="50%">
-      <h3>ℹ️ About</h3>
-      <img
-        src="assets/screenshots/about.png"
-        alt="About Page"
-        width="100%"
-      >
-    </td>
+\| **\*\*jQuery\*\*** | DOM utilities and template interactions |
 
-    <td align="center" width="50%">
-      <h3>🌸 Coming Soon Preview</h3>
-      <img
-        src="assets/screenshots/coming-soon.png"
-        alt="Coming Soon Preview"
-        width="100%"
-      >
-    </td>
-  </tr>
-</table>
+\| **\*\*Font Awesome\*\*** | Icons |
 
----
-## 🛠️ Technology Stack
+\| **\*\*Slick Carousel\*\*** | Product/image carousel components |
 
-| Technology | Purpose |
-|---|---|
-| **HTML5** | Page structure and semantic markup |
-| **CSS3** | Custom styling and responsive presentation |
-| **JavaScript** | Client-side interactions |
-| **Bootstrap 5** | Responsive UI and components |
-| **jQuery** | DOM utilities and template interactions |
-| **Font Awesome** | Icons |
-| **Slick Carousel** | Product/image carousel components |
-| **Leaflet** | Interactive map |
-| **OpenStreetMap** | Map tiles |
-| **Google Fonts / Roboto** | Typography |
+\| **\*\*Leaflet\*\*** | Interactive map |
 
----
+\| **\*\*OpenStreetMap\*\*** | Map tiles |
 
-## 📁 Project Structure
+\| **\*\*Google Fonts / Roboto\*\*** | Typography |
 
-```text
+\---
+
+**## 📁 Project Structure**
+
+\`\`\`text
+
 Parapharmacy-Website/
+
 │
+
 ├── assets/
-│   ├── css/
-│   │   ├── bootstrap.min.css
-│   │   ├── custom.css
-│   │   ├── fontawesome.css
-│   │   ├── fontawesome.min.css
-│   │   ├── slick.min.css
-│   │   ├── slick-theme.css
-│   │   ├── templatemo.css
-│   │   └── ...
-│   │
-│   ├── js/
-│   │   ├── bootstrap.bundle.min.js
-│   │   ├── jquery-1.11.0.min.js
-│   │   ├── jquery-migrate-1.2.1.min.js
-│   │   ├── slick.min.js
-│   │   ├── templatemo.js
-│   │   └── custom.js
-│   │
-│   ├── img/
-│   │   ├── product images
-│   │   ├── promotional images
-│   │   └── review videos
-│   │
-│   └── webfonts/
+
+│   ├── css/
+
+│   │   ├── bootstrap.min.css
+
+│   │   ├── custom.css
+
+│   │   ├── fontawesome.css
+
+│   │   ├── fontawesome.min.css
+
+│   │   ├── slick.min.css
+
+│   │   ├── slick-theme.css
+
+│   │   ├── templatemo.css
+
+│   │   └── ...
+
+│   │
+
+│   ├── js/
+
+│   │   ├── bootstrap.bundle.min.js
+
+│   │   ├── jquery-1.11.0.min.js
+
+│   │   ├── jquery-migrate-1.2.1.min.js
+
+│   │   ├── slick.min.js
+
+│   │   ├── templatemo.js
+
+│   │   └── custom.js
+
+│   │
+
+│   ├── img/
+
+│   │   ├── product images
+
+│   │   ├── promotional images
+
+│   │   └── review videos
+
+│   │
+
+│   └── webfonts/
+
 │
+
 ├── index.html
+
 ├── about.html
+
 ├── shop.html
+
 ├── shop-single.html
+
 ├── cart.html
+
 ├── checkout.html
+
 ├── login.html
-├── review.html
+
+├── review\.html
+
 ├── contact.html
+
 ├── coming.html
+
 ├── chekout.html
+
 └── README.md
-```
 
-> `chekout.html` is a duplicate/legacy checkout page kept in the current project. `checkout.html` is the main checkout page.
+\`\`\`
 
----
+\> \`chekout.html\` is a duplicate/legacy checkout page kept in the current project. \`checkout.html\` is the main checkout page.
 
-## 🚀 Getting Started
+\---
 
-### 1. Clone the repository
+**## 🚀 Getting Started**
 
-```bash
-git clone https://github.com/AjmiOns/Parapharmacy-Website.git
-```
+**### 1. Clone the repository**
 
-### 2. Open the project
+\`\`\`bash
 
-```bash
+git clone https\://github.com/AjmiOns/Parapharmacy-Website.git
+
+\`\`\`
+
+**### 2. Open the project**
+
+\`\`\`bash
+
 cd Parapharmacy-Website
-```
 
-### 3. Run the website
+\`\`\`
+
+**### 3. Run the website**
 
 This is a static front-end project, so no Node.js installation or backend server is required for the basic version.
 
 You can open:
 
-```text
+\`\`\`text
+
 index.html
-```
+
+\`\`\`
 
 directly in a browser.
 
-### Recommended: VS Code + Live Server
+**### Recommended: VS Code + Live Server**
 
-For a better development workflow, open the project in **Visual Studio Code** and use the **Live Server** extension.
+For a better development workflow, open the project in **\*\*Visual Studio Code\*\*** and use the **\*\*Live Server\*\*** extension.
 
 Then launch:
 
-```text
+\`\`\`text
+
 index.html
-```
+
+\`\`\`
 
 through Live Server.
 
----
+\---
 
-## 🔄 Main User Flow
+**## 🔄 Main User Flow**
 
-```text
+\`\`\`text
+
 Home
-  │
-  ├── About
-  ├── Shop
-  │     │
-  │     └── Product Details
-  │             │
-  │             └── Add to Cart
-  │
-  ├── Reviews
-  ├── Contact
-  ├── Login
-  │
-  └── Cart
-        │
-        └── Checkout
-```
 
----
+  │
 
-## 🧩 Architecture
+  ├── About
 
-The current version follows a simple **static multi-page architecture**:
+  ├── Shop
 
-```text
+  │     │
+
+  │     └── Product Details
+
+  │             │
+
+  │             └── Add to Cart
+
+  │
+
+  ├── Reviews
+
+  ├── Contact
+
+  ├── Login
+
+  │
+
+  └── Cart
+
+        │
+
+        └── Checkout
+
+\`\`\`
+
+\---
+
+**## 🏗️ Architecture**
+
+The current version follows a simple **\*\*static multi-page architecture\*\***:
+
+\`\`\`text
+
 Presentation Layer
-        │
-        ├── HTML pages
-        ├── CSS / Bootstrap
-        └── JavaScript
-                │
-                └── Browser
-```
 
-There is currently **no API layer, database, authentication service, payment gateway, or server-side business logic** connected to the project.
+        │
+
+        ├── HTML pages
+
+        ├── CSS / Bootstrap
+
+        └── JavaScript
+
+                │
+
+                └── Browser
+
+\`\`\`
+
+There is currently **\*\*no API layer, database, authentication service, payment gateway, or server-side business logic\*\*** connected to the project.
 
 This makes the project suitable as a front-end prototype and provides a clean foundation for a future full-stack implementation.
 
----
+\---
 
-## 🔐 Security
+**## 🔐 Security**
 
 The project is currently front-end only.
 
-### Important
+**### Important**
 
 Do not commit:
 
-- API keys
-- private access tokens
-- database credentials
-- `.env` files containing secrets
-- administrator credentials
-- private configuration files
+\- API keys
+
+\- private access tokens
+
+\- database credentials
+
+\- \`.env\` files containing secrets
+
+\- administrator credentials
+
+\- private configuration files
 
 For browser-side services that require public keys, use provider-supported public tokens and configure the appropriate domain/restriction settings.
 
----
+\---
 
-## ⚠️ Current Limitations
+**## ⚠️ Current Limitations**
 
-The current repository is primarily a **front-end prototype**.
+The current repository is primarily a **\*\*front-end prototype\*\***.
 
 The following features require backend integration to become production-ready:
 
-- User registration and authentication
-- Persistent shopping cart
-- Product inventory
-- Order management
-- Payment processing
-- Database storage
-- Server-side form processing
-- Real customer reviews
-- Real-time order tracking
-- Secure user sessions
+\- User registration and authentication
 
-The forms and e-commerce pages currently represent the **user interface and navigation flow**, rather than a complete production e-commerce backend.
+\- Persistent shopping cart
 
----
+\- Product inventory
 
-## 🗺️ Future Roadmap
+\- Order management
 
-### Phase 1 — Front-end improvements
+\- Payment processing
 
-- [ ] Improve accessibility
-- [ ] Standardize CSS across all pages
-- [ ] Remove duplicate/legacy files
-- [ ] Improve responsive behavior
-- [ ] Add form validation
-- [ ] Improve SEO metadata
-- [ ] Optimize images and videos
+\- Database storage
 
-### Phase 2 — JavaScript functionality
+\- Server-side form processing
 
-- [ ] Dynamic product filtering
-- [ ] Functional search
-- [ ] Dynamic cart management
-- [ ] Quantity updates
-- [ ] LocalStorage cart persistence
-- [ ] Checkout validation
+\- Real customer reviews
 
-### Phase 3 — Full-stack architecture
+\- Real-time order tracking
 
-- [ ] REST API
-- [ ] Database integration
-- [ ] User authentication
-- [ ] Product management
-- [ ] Inventory management
-- [ ] Order management
-- [ ] Admin dashboard
-- [ ] Payment integration
+\- Secure user sessions
 
-### Phase 4 — Production readiness
+The forms and e-commerce pages currently represent the **\*\*user interface and navigation flow\*\***, rather than a complete production e-commerce backend.
 
-- [ ] Automated testing
-- [ ] CI/CD pipeline
-- [ ] Environment configuration
-- [ ] Security hardening
-- [ ] Performance optimization
-- [ ] Production deployment
+\---
 
----
+**## 🗺️ Roadmap**
 
-## 💻 Development Workflow
+**### Phase 1 — Front-end improvements**
+
+\- [ ] Improve accessibility
+
+\- [ ] Standardize CSS across all pages
+
+\- [ ] Remove duplicate/legacy files
+
+\- [ ] Improve responsive behavior
+
+\- [ ] Add form validation
+
+\- [ ] Improve SEO metadata
+
+\- [ ] Optimize images and videos
+
+**### Phase 2 — JavaScript functionality**
+
+\- [ ] Dynamic product filtering
+
+\- [ ] Functional search
+
+\- [ ] Dynamic cart management
+
+\- [ ] Quantity updates
+
+\- [ ] LocalStorage cart persistence
+
+\- [ ] Checkout validation
+
+**### Phase 3 — Full-stack architecture**
+
+\- [ ] REST API
+
+\- [ ] Database integration
+
+\- [ ] User authentication
+
+\- [ ] Product management
+
+\- [ ] Inventory management
+
+\- [ ] Order management
+
+\- [ ] Admin dashboard
+
+\- [ ] Payment integration
+
+**### Phase 4 — Production readiness**
+
+\- [ ] Automated testing
+
+\- [ ] CI/CD pipeline
+
+\- [ ] Environment configuration
+
+\- [ ] Security hardening
+
+\- [ ] Performance optimization
+
+\- [ ] Production deployment
+
+\---
+
+**## 🌿 Git & GitHub Workflow**
 
 Recommended Git workflow:
 
-```bash
+\`\`\`bash
+
 git checkout -b feature/feature-name
-```
+
+\`\`\`
 
 Make your changes, then:
 
-```bash
+\`\`\`bash
+
 git add .
+
 git commit -m "feat: add feature description"
+
 git push origin feature/feature-name
-```
+
+\`\`\`
 
 For maintenance or fixes:
 
-```bash
-git checkout -b fix/issue-description
-```
+\`\`\`bash
 
-### Commit convention
+git checkout -b fix/issue-description
+
+\`\`\`
+
+**### Commit convention**
 
 Recommended Conventional Commits format:
 
-```text
+\`\`\`text
+
 feat: add product filtering
+
 fix: correct checkout form validation
+
 style: improve product card layout
+
 refactor: reorganize JavaScript functions
+
 docs: update README
+
 perf: optimize product images
-```
 
----
+\`\`\`
 
-## 🌐 Repository
+\---
 
-**GitHub:**  
-https://github.com/AjmiOns/Parapharmacy-Website
+**## 🌐 Repository**
 
----
+**\*\*GitHub:\*\***  
 
-## 👩‍💻 Author
+https\://github.com/AjmiOns/Parapharmacy-Website
 
-**Ajmi Ons**
+\---
 
-GitHub:  
-https://github.com/AjmiOns
+**## 👩‍💻 Author**
+
+**\*\*Ajmi Ons\*\***
+
+GitHub:  
+
+https\://github.com/AjmiOns
 
 
 
-## 🙏 Acknowledgements
+
+
+**## 🙏 Acknowledgements**
 
 This project uses resources and libraries including:
 
-- [Bootstrap](https://getbootstrap.com/)
-- [jQuery](https://jquery.com/)
-- [Font Awesome](https://fontawesome.com/)
-- [Leaflet](https://leafletjs.com/)
-- [OpenStreetMap](https://www.openstreetmap.org/)
-- [Google Fonts](https://fonts.google.com/)
+\- [Bootstrap]\(https\://getbootstrap.com/)
 
----
+\- [jQuery]\(https\://jquery.com/)
 
-## ⭐ Project Goals
+\- [Font Awesome]\(https\://fontawesome.com/)
+
+\- [Leaflet]\(https\://leafletjs.com/)
+
+\- [OpenStreetMap]\(https\://www\.openstreetmap.org/)
+
+\- [Google Fonts]\(https\://fonts.google.com/)
+
+\---
+
+**## ⭐ Project Goals**
 
 The goal of this project is to build a clean and responsive parapharmacy storefront while practicing:
 
-- Front-end web development
-- Responsive UI design
-- Multi-page website architecture
-- E-commerce user flows
-- Git and GitHub version control
-- Project organization
-- Preparation for future full-stack development
+\- Front-end web development
+
+\- Responsive UI design
+
+\- Multi-page website architecture
+
+\- E-commerce user flows
+
+\- Git and GitHub version control
+
+\- Project organization
+
+\- Preparation for future full-stack development
