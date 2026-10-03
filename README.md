@@ -2,9 +2,9 @@
 
 # 🌿 Para Shop
 
-### Votre parapharmacie en ligne — soins, beauté & bien-être
+### Your online parapharmacy — care, beauty & wellness
 
-Front-end e-commerce responsive pour une parapharmacie, construit avec **HTML5**, **CSS3**, **Bootstrap 5** et **JavaScript**.
+Responsive e-commerce front-end for a parapharmacy, built with **HTML5**, **CSS3**, **Bootstrap 5** and **JavaScript**.
 
 <br>
 
@@ -15,99 +15,99 @@ Front-end e-commerce responsive pour une parapharmacie, construit avec **HTML5**
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 ![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
 
-![Status](https://img.shields.io/badge/statut-en%20d%C3%A9veloppement-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/status-in%20development-yellow?style=flat-square)
 ![Responsive](https://img.shields.io/badge/design-responsive-success?style=flat-square)
 ![Repo size](https://img.shields.io/github/repo-size/AjmiOns/Parapharmacy-Website?style=flat-square&color=pink)
 ![Last commit](https://img.shields.io/github/last-commit/AjmiOns/Parapharmacy-Website?style=flat-square&color=green)
 
 <br>
 
-<img src="assets/screenshots/home.png" alt="Page d'accueil Para Shop" width="90%">
+<img src="assets/screenshots/home.png" alt="Para Shop home page" width="90%">
 
 </div>
 
 ---
 
-## 📑 Table des matières
+## 📑 Table of Contents
 
-- [À propos](#-à-propos)
-- [Fonctionnalités](#-fonctionnalités)
-- [Aperçu](#-aperçu)
-- [Stack technique](#-stack-technique)
-- [Structure du projet](#-structure-du-projet)
+- [About](#-about)
+- [Features](#-features)
+- [Preview](#-preview)
+- [Tech Stack](#️-tech-stack)
+- [Project Structure](#-project-structure)
 - [Installation](#-installation)
-- [Pages du site](#-pages-du-site)
+- [Site Pages](#️-site-pages)
 - [Roadmap](#-roadmap)
-- [Contribuer](#-contribuer)
-- [Crédits](#-crédits)
-- [Auteur](#-auteur)
+- [Contributing](#-contributing)
+- [Credits](#-credits)
+- [Author](#-author)
 
 ---
 
-## 💡 À propos
+## 💡 About
 
-**Para Shop** est une vitrine e-commerce dédiée à la parapharmacie : soins du visage, soins des cheveux, soins des lèvres, compléments et produits de bien-être.
+**Para Shop** is an e-commerce showcase dedicated to parapharmacy: face care, hair care, lip care, supplements and wellness products.
 
-Le projet met l'accent sur une **expérience utilisateur claire** (navigation par catégories, fiches produits détaillées, avis clients) et sur une **identité visuelle soignée**, alliant le vert « santé » et le rose « beauté ».
+The project focuses on a **clear user experience** (category navigation, detailed product pages, customer reviews) and a **polished visual identity**, combining "health" green with "beauty" pink.
 
-> 🎯 **Objectif :** proposer une base front-end propre, maintenable et prête à être connectée à un back-end (PHP / MySQL, API REST, etc.).
+> 🎯 **Goal:** to provide a clean, maintainable front-end foundation, ready to be connected to a back-end (PHP / MySQL, REST API, etc.).
 
 ---
 
-## ✨ Fonctionnalités
+## ✨ Features
 
-| | Fonctionnalité | Description |
+| | Feature | Description |
 |---|---|---|
-| 🏠 | **Accueil** | Bannière, produits mis en avant et catégories |
-| 🛍️ | **Catalogue produits** | Liste des produits avec filtrage par catégories (Santé & Bien-être, Bébé & Maman, Beauté & Peau…) |
-| 🔎 | **Fiche produit** | Galerie d'images, description et informations détaillées |
-| 🛒 | **Panier** | Récapitulatif des articles sélectionnés |
-| 💳 | **Checkout** | Page de finalisation de commande |
-| 🔐 | **Connexion** | Formulaire d'authentification |
-| ⭐ | **Avis clients** | Témoignages et retours sur les produits |
-| 🚀 | **Nouveautés à venir** | Carrousel « Coming Soon » avec vidéos (pause automatique au changement de slide) |
-| 📬 | **Contact** | Formulaire de contact |
-| ℹ️ | **À propos** | Présentation et services : livraison, retours, promotions, service 24h/24 |
-| 📱 | **Responsive** | Interface adaptée mobile, tablette et desktop |
+| 🏠 | **Home** | Banner, featured products and categories |
+| 🛍️ | **Product catalog** | Product list with category filtering (Health & Wellness, Baby & Mom, Beauty & Skin…) |
+| 🔎 | **Product page** | Image gallery, description and detailed information |
+| 🛒 | **Cart** | Summary of the selected items |
+| 💳 | **Checkout** | Order completion page |
+| 🔐 | **Login** | Authentication form |
+| ⭐ | **Customer reviews** | Testimonials and feedback on products |
+| 🚀 | **Upcoming products** | "Coming Soon" carousel with videos (automatic pause when the slide changes) |
+| 📬 | **Contact** | Contact form |
+| ℹ️ | **About** | Presentation and services: delivery, returns, promotions, 24/7 service |
+| 📱 | **Responsive** | Interface adapted for mobile, tablet and desktop |
 
 ---
 
-## 📸 Aperçu
+## 📸 Preview
 
-### 🏠 Accueil
+### 🏠 Home
 
 <div align="center">
-  <img src="assets/screenshots/home.png" alt="Accueil" width="100%">
+  <img src="assets/screenshots/home.png" alt="Home" width="100%">
 </div>
 
 <br>
 
-### 🛍️ Catalogue & fiche produit
+### 🛍️ Catalog & product page
 
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/screenshots/products.png" alt="Catalogue produits"><br>
-      <sub><b>Catalogue produits</b></sub>
+      <img src="assets/screenshots/products.png" alt="Product catalog"><br>
+      <sub><b>Product catalog</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/screenshots/single-shop.png" alt="Fiche produit"><br>
-      <sub><b>Fiche produit</b></sub>
+      <img src="assets/screenshots/single-shop.png" alt="Product page"><br>
+      <sub><b>Product page</b></sub>
     </td>
   </tr>
 </table>
 
-### ⭐ Avis clients & nouveautés
+### ⭐ Customer reviews & upcoming products
 
 <table>
   <tr>
     <td align="center" width="33%">
-      <img src="assets/screenshots/reviews.png" alt="Avis clients"><br>
-      <sub><b>Avis clients</b></sub>
+      <img src="assets/screenshots/reviews.png" alt="Customer reviews"><br>
+      <sub><b>Customer reviews</b></sub>
     </td>
     <td align="center" width="33%">
-      <img src="assets/screenshots/coming.png" alt="Nouveau produit"><br>
-      <sub><b>Nouveau produit</b></sub>
+      <img src="assets/screenshots/coming.png" alt="New product"><br>
+      <sub><b>New product</b></sub>
     </td>
     <td align="center" width="33%">
       <img src="assets/screenshots/comingSoon.png" alt="Coming soon"><br>
@@ -116,13 +116,13 @@ Le projet met l'accent sur une **expérience utilisateur claire** (navigation pa
   </tr>
 </table>
 
-### 📬 À propos & contact
+### 📬 About & contact
 
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/screenshots/about.png" alt="À propos"><br>
-      <sub><b>À propos</b></sub>
+      <img src="assets/screenshots/about.png" alt="About"><br>
+      <sub><b>About</b></sub>
     </td>
     <td align="center" width="50%">
       <img src="assets/screenshots/contact.png" alt="Contact"><br>
@@ -133,148 +133,154 @@ Le projet met l'accent sur une **expérience utilisateur claire** (navigation pa
 
 ---
 
-## 🛠️ Stack technique
+## 🛠️ Tech Stack
 
-| Catégorie | Technologies |
+| Category | Technologies |
 |---|---|
 | **Structure** | HTML5 |
-| **Style** | CSS3, Bootstrap 5, thème basé sur *Zay Shop* (TemplateMo) |
-| **Interactivité** | JavaScript (ES6), jQuery, Slick Carousel |
-| **Icônes & polices** | Font Awesome, Google Fonts (Roboto) |
-| **Environnement local** | XAMPP / tout serveur HTTP statique |
+| **Styling** | CSS3, Bootstrap 5, theme based on *Zay Shop* (TemplateMo) |
+| **Interactivity** | JavaScript (ES6), jQuery, Slick Carousel |
+| **Icons & fonts** | Font Awesome, Google Fonts (Roboto) |
+| **Local environment** | XAMPP / any static HTTP server |
 | **Versioning** | Git & GitHub |
 
 ---
 
-## 📂 Structure du projet
+## 📂 Project Structure
 
 ```
 Para-Shop/
-├── index.html          # Page d'accueil
-├── shop.html           # Catalogue produits
-├── shop-single.html    # Fiche produit
-├── cart.html           # Panier
-├── checkout.html       # Finalisation de commande
-├── login.html          # Connexion
-├── review.html         # Avis clients
-├── coming.html         # Nouveautés à venir
-├── about.html          # À propos
+├── index.html          # Home page
+├── shop.html           # Product catalog
+├── shop-single.html    # Product page
+├── cart.html           # Cart
+├── checkout.html       # Order completion
+├── login.html          # Login
+├── review.html         # Customer reviews
+├── coming.html         # Upcoming products
+├── about.html          # About
 ├── contact.html        # Contact
 └── assets/
     ├── css/            # Bootstrap, templatemo, Font Awesome, Slick, custom.css
     ├── js/             # jQuery, Bootstrap bundle, Slick, custom.js
-    ├── img/            # Images produits et vidéos
-    ├── webfonts/       # Polices Font Awesome & Slick
-    └── screenshots/    # Captures d'écran du README
+    ├── img/            # Product images and videos
+    ├── webfonts/       # Font Awesome & Slick fonts
+    └── screenshots/    # README screenshots
 ```
 
 ---
 
 ## 🚀 Installation
 
-### Prérequis
+### Prerequisites
 
-- Un navigateur moderne (Chrome, Firefox, Edge, Safari)
-- *(Optionnel)* [XAMPP](https://www.apachefriends.org/) ou tout autre serveur local
+- A modern browser (Chrome, Firefox, Edge, Safari)
+- *(Optional)* [XAMPP](https://www.apachefriends.org/) or any other local server
 
-### 1. Cloner le dépôt
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/AjmiOns/Parapharmacy-Website.git
 cd Parapharmacy-Website
 ```
 
-### 2. Lancer le projet
+### 2. Run the project
 
-**Option A — Directement dans le navigateur**
+**Option A — Directly in the browser**
 
-Ouvrez simplement `index.html`.
+Simply open `index.html`.
 
-**Option B — Avec XAMPP**
+**Option B — With XAMPP**
 
-1. Copiez le dossier dans `C:\xampp\htdocs\`
-2. Démarrez **Apache** depuis le panneau XAMPP
-3. Rendez-vous sur 👉 `http://localhost/Para-Shop/`
+1. Copy the folder to `C:\xampp\htdocs\`
+2. Start **Apache** from the XAMPP control panel
+3. Go to 👉 `http://localhost/Para-Shop/`
 
-**Option C — Avec un serveur statique rapide**
+**Option C — With a quick static server**
 
 ```bash
 # Python
 python -m http.server 8000
 
-# ou Node.js
+# or Node.js
 npx serve .
 ```
 
-Puis ouvrez `http://localhost:8000`.
+Then open `http://localhost:8000`.
 
 ---
 
-## 🗺️ Pages du site
+## 🗺️ Site Pages
 
-| Page | Fichier | Rôle |
+| Page | File | Purpose |
 |---|---|---|
-| Accueil | `index.html` | Point d'entrée, produits phares |
-| Boutique | `shop.html` | Liste des produits et catégories |
-| Détail produit | `shop-single.html` | Informations complètes d'un produit |
-| Panier | `cart.html` | Articles sélectionnés |
-| Paiement | `checkout.html` | Finalisation de la commande |
-| Connexion | `login.html` | Accès au compte |
-| Avis | `review.html` | Retours clients |
-| Nouveautés | `coming.html` | Produits à venir |
-| À propos | `about.html` | Présentation et services |
-| Contact | `contact.html` | Formulaire de contact |
+| Home | `index.html` | Entry point, featured products |
+| Shop | `shop.html` | Product list and categories |
+| Product details | `shop-single.html` | Complete information about a product |
+| Cart | `cart.html` | Selected items |
+| Checkout | `checkout.html` | Order completion |
+| Login | `login.html` | Account access |
+| Reviews | `review.html` | Customer feedback |
+| New arrivals | `coming.html` | Upcoming products |
+| About | `about.html` | Presentation and services |
+| Contact | `contact.html` | Contact form |
 
 ---
 
 ## 🧭 Roadmap
 
-- [x] Maquettes et intégration des pages principales
-- [x] Design responsive avec Bootstrap 5
-- [x] Carrousel de nouveautés avec vidéos
-- [ ] Panier dynamique (ajout / suppression / calcul du total en JavaScript)
-- [ ] Recherche et filtres fonctionnels sur le catalogue
-- [ ] Page d'inscription (`register.html`)
-- [ ] Back-end (PHP / MySQL ou API REST) : comptes, produits, commandes
-- [ ] Paiement en ligne sécurisé
-- [ ] Optimisation des performances (compression des images et vidéos)
-- [ ] Accessibilité (WCAG) et SEO
-- [ ] Support multilingue (FR / EN / AR)
+- [x] Mockups and integration of the main pages
+- [x] Responsive design with Bootstrap 5
+- [x] New arrivals carousel with videos
+- [ ] Dynamic cart (add / remove / total calculation in JavaScript)
+- [ ] Working search and filters on the catalog
+- [ ] Registration page (`register.html`)
+- [ ] Back-end (PHP / MySQL or REST API): accounts, products, orders
+- [ ] Secure online payment
+- [ ] Performance optimization (image and video compression)
+- [ ] Accessibility (WCAG) and SEO
+- [ ] Multilingual support (FR / EN / AR)
 
 ---
 
-## 🤝 Contribuer
+## 🤝 Contributing
 
-Les contributions sont les bienvenues !
+Contributions are welcome!
 
-1. **Forkez** le projet
-2. Créez une branche : `git checkout -b feature/ma-fonctionnalite`
-3. Commitez : `git commit -m "feat: ajout de ma fonctionnalité"`
-4. Poussez : `git push origin feature/ma-fonctionnalite`
-5. Ouvrez une **Pull Request**
+1. **Fork** the project
+2. Create a branch: `git checkout -b feature/my-feature`
+3. Commit: `git commit -m "feat: add my feature"`
+4. Push: `git push origin feature/my-feature`
+5. Open a **Pull Request**
 
-**Convention de commits** : [Conventional Commits](https://www.conventionalcommits.org/fr/) (`feat:`, `fix:`, `docs:`, `style:`, `refactor:`…).
-
----
-
-## 🙏 Crédits
-
-- Thème de base : [Zay Shop – TemplateMo 559](https://templatemo.com/tm-559-zay-shop)
-- Icônes : [Font Awesome](https://fontawesome.com/)
-- Composants UI : [Bootstrap](https://getbootstrap.com/)
-- Carrousel : [Slick](https://kenwheeler.github.io/slick/)
-- Les visuels produits appartiennent à leurs marques respectives et sont utilisés à des fins de démonstration uniquement.
+**Commit convention:** [Conventional Commits](https://www.conventionalcommits.org/) (`feat:`, `fix:`, `docs:`, `style:`, `refactor:`…).
 
 ---
 
-## 👩‍💻 Auteur
+## 🙏 Credits
+
+- Base theme: [Zay Shop – TemplateMo 559](https://templatemo.com/tm-559-zay-shop)
+- Icons: [Font Awesome](https://fontawesome.com/)
+- UI components: [Bootstrap](https://getbootstrap.com/)
+- Carousel: [Slick](https://kenwheeler.github.io/slick/)
+- Product visuals belong to their respective brands and are used for demonstration purposes only.
+
+---
+
+## 👩‍💻 Author
 
 **Ons Ajmi** — [@AjmiOns](https://github.com/AjmiOns)
 
 <div align="center">
 
-⭐ Si ce projet vous plaît, n'hésitez pas à lui laisser une étoile !
+⭐ If you like this project, feel free to give it a star!
 
-<sub>Fait avec 💚 et beaucoup de ☕</sub>
+<sub>Made with 💚 and lots of ☕</sub>
 
 </div>
+
+<p align="center">
+  <strong>Ons Ajmi</strong> — Engineering Student in Cloud Infrastructure Management @ TEK-UP University<br>
+  GitHub : <a href="https://github.com/AjmiOns">AjmiOns</a> · 
+  LinkedIn : <a href="https://www.linkedin.com/in/ons-ajmi-0ab2982a2/">Ons Ajmi</a>
+</p>
