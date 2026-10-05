@@ -269,7 +269,11 @@ Contributions are welcome!
 
 ## 👩‍💻 Author
 
-**Ons Ajmi** — [@AjmiOns](https://github.com/AjmiOns)
+<p align="center">
+  <strong>Ons Ajmi</strong> — Engineering Student in Cloud Infrastructure Management @ TEK-UP University<br>
+  GitHub : <a href="https://github.com/AjmiOns">AjmiOns</a> · 
+  LinkedIn : <a href="https://www.linkedin.com/in/ons-ajmi-0ab2982a2/">Ons Ajmi</a>
+</p>
 
 <div align="center">
 
@@ -279,8 +283,4 @@ Contributions are welcome!
 
 </div>
 
-<p align="center">
-  <strong>Ons Ajmi</strong> — Engineering Student in Cloud Infrastructure Management @ TEK-UP University<br>
-  GitHub : <a href="https://github.com/AjmiOns">AjmiOns</a> · 
-  LinkedIn : <a href="https://www.linkedin.com/in/ons-ajmi-0ab2982a2/">Ons Ajmi</a>
-</p>
+
